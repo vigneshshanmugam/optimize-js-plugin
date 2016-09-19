@@ -1,6 +1,6 @@
 {
   "name": "optimize-js-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "webpack plugin to optimize a JavaScript file for faster execution",
   "main": "index.js",
   "keywords": [
