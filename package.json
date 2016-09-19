@@ -13,5 +13,13 @@
   "dependencies": {
     "optimize-js": "^1.0.0",
     "webpack-sources": "^0.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigneshshanmugam/optimize-js-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vigneshshanmugam/optimize-js-plugin/issues"
+  },
+  "homepage": "https://github.com/vigneshshanmugam/optimize-js-plugin#readme"
 }
