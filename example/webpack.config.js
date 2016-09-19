@@ -7,6 +7,7 @@ module.exports = {
 	output: {
 		path: path.join(__dirname, 'public'),
 		filename: 'bundle.js',
+        libraryTarget: 'umd'
 	},
     plugins: [
         new webpack.optimize.UglifyJsPlugin({
@@ -16,7 +17,7 @@ module.exports = {
             sourceMap: true
         }),
         new OptimizeJsPlugin({
-            sourceMap: true
+            sourceMap: false
         })
     ]
 };
