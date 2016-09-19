@@ -1,0 +1,17 @@
+{
+  "name": "optimize-js-plugin",
+  "version": "0.0.1",
+  "description": "webpack plugin to optimize a JavaScript file for faster execution",
+  "main": "index.js",
+  "keywords": [
+    "optimize",
+    "js",
+    "webpack"
+  ],
+  "author": "Vignesh Shanmugam <vignesh.shanmugam22@gmail.com> (https://vigneshh.in)",
+  "license": "MIT",
+  "dependencies": {
+    "optimize-js": "^1.0.0",
+    "webpack-sources": "^0.1.2"
+  }
+}
