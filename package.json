@@ -2,7 +2,12 @@
   "name": "optimize-js-plugin",
   "version": "0.0.2",
   "description": "webpack plugin to optimize initial JavaScript execution/parsing by wrapping eager functions",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "example": "npm run build && webpack --config example/webpack.config.js",
+    "prepublish": "npm run build"
+  },
   "keywords": [
     "optimize",
     "js",
@@ -10,11 +15,6 @@
     "webpack-plugin"
   ],
   "author": "Vignesh Shanmugam <vignesh.shanmugam22@gmail.com> (https://vigneshh.in)",
-  "license": "MIT",
-  "dependencies": {
-    "optimize-js": "^1.0.0",
-    "webpack-sources": "^0.1.2"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vigneshshanmugam/optimize-js-plugin.git"
@@ -22,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/vigneshshanmugam/optimize-js-plugin/issues"
   },
-  "homepage": "https://github.com/vigneshshanmugam/optimize-js-plugin#readme"
+  "homepage": "https://github.com/vigneshshanmugam/optimize-js-plugin#readme",
+  "license": "MIT",
+  "dependencies": {
+    "optimize-js": "^1.0.0",
+    "webpack-sources": "^0.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "webpack": "^1.13.2"
+  }
 }

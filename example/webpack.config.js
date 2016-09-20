@@ -1,6 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
-var OptimizeJsPlugin = require('../index.js');
+var OptimizeJsPlugin = require('../lib/index.js');
 
 module.exports = {
 	entry: path.join(__dirname, 'index.js'),

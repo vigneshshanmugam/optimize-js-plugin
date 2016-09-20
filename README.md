@@ -27,6 +27,14 @@ module.exports = {
 }
 ```
 
+### Example
+
+To check the example, run
+
+```js
+npm run example
+```
+
 ### Options
 
 All options as mentioned [here](https://github.com/nolanlawson/optimize-js#javascript-api)
