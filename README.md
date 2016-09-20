@@ -7,7 +7,7 @@ Thanks to @nolanlawson for his awesome work.
 ## Install
 
 ```sh
-npm i --save-dev optimise-js-plugin
+npm i --save-dev optimize-js-plugin
 ```
 
 ## Usage
