@@ -1,6 +1,6 @@
 {
   "name": "optimize-js-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "webpack plugin to optimize initial JavaScript execution/parsing by wrapping eager functions",
   "main": "lib/index.js",
   "scripts": {
