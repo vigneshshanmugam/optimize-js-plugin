@@ -9,16 +9,16 @@ module.exports = class OptimizeJsPlugin {
     }
 
     apply(compiler) {
-        const jsregex = /\.js($|\?)/i;
+        const jsRegex = /\.js($|\?)/i;
 
-        compiler.plugin('emit', (compilation, callback) => {
-            compilation.chunks.forEach((chunk) => {
-                const files = [];
+        compiler.plugin('compilation',(compilation) => {
+            compilation.plugin("after-optimize-chunk-assets",(chunks) => {
+                chunks.forEach((chunk) => {
+                    const files = [];
+                    chunk.files.forEach(file => files.push(file));
 
-                chunk.files.forEach(file => files.push(file));
-
-                files
-                    .filter(file => jsregex.test(file))
+                    files
+                    .filter(file => jsRegex.test(file))
                     .forEach(file => {
                         try {
                             const asset = compilation.assets[file];
@@ -31,8 +31,8 @@ module.exports = class OptimizeJsPlugin {
                             compilation.errors.push(e);
                         }
                     });
-            })
-            callback();
+                });
+            });
         });
     }
 }
