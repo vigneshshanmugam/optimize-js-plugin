@@ -5,7 +5,8 @@
     },
     "rules": {
         "no-console": 0,
-        "brace-style": 0
+        "brace-style": 0,
+        "no-unused-vars": 0
     },
     "globals": {
         "Promise": true,
