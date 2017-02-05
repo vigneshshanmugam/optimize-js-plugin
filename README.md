@@ -2,6 +2,9 @@
 
 Webpack plugin that uses [optimize-js](https://github.com/nolanlawson/optimize-js)
 
+[![downloads](https://img.shields.io/npm/dt/optimize-js-plugin.svg)](https://npmjs.org/package/optimize-js-plugin)
+[![version](https://img.shields.io/npm/v/optimize-js-plugin.svg)](https://npmjs.org/package/optimize-js-plugin)
+
 Thanks to @nolanlawson for his awesome work.
 
 ## Install
