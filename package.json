@@ -26,7 +26,7 @@
   "homepage": "https://github.com/vigneshshanmugam/optimize-js-plugin#readme",
   "license": "MIT",
   "dependencies": {
-    "optimize-js": "^1.0.0",
+    "optimize-js": "^1.0.2",
     "webpack-sources": "^0.1.2"
   },
   "devDependencies": {
