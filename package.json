@@ -34,7 +34,7 @@
     "babel-preset-es2015": "^6.14.0",
     "eslint": "^3.5.0",
     "mocha": "^3.0.2",
-    "rimraf": "^2.5.4",
+    "rimraf": "^3.0.1",
     "webpack": "^1.13.2"
   }
 }
