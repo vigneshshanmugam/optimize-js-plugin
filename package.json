@@ -27,7 +27,7 @@
   "license": "MIT",
   "dependencies": {
     "optimize-js": "^1.0.0",
-    "webpack-sources": "^0.1.2"
+    "webpack-sources": "^3.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
